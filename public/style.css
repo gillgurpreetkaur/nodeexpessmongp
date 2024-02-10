@@ -1,0 +1,135 @@
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color:blue;
+    size: 25px;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+ .imgas img{
+    height:35rem;
+    width: 40rem;
+}
+.main_header_left{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.main_header_right{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.main_header_left img{
+height: 30rem;
+width: 25rem;
+}
+.main_header_right h1{
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text_clr{
+    color: palevioletred;
+}
+.card img{
+    height: 15rem;
+    width: 17rem;
+
+}
+.fs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 4rem;
+}
+.fs input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 2;
+    color: beige;
+    font-size: 15px;
+}
+.formsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.textcontaint{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+.textcontaint button{
+    border-radius: 20px;
+}
+.textcontaint input{
+    border-radius: 20px;
+}
+/* .timedatecont{
+    background-color:  #323544;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.containofdatetime 
+{
+    background-color:  #323544;
+    width: 30rem;
+    height: 15rem;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.datetimesection{
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #2d303d;
+    
+}
+.getinfosection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cloudphotos{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cloudphotos i{
+    color: blue;
+    font-size: 80px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 20rem;
+    width: 40rem;
+}
+.content i{
+    color: green;
+    font-size: 8rem;
+}
